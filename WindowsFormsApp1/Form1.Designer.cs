@@ -31,10 +31,10 @@ namespace WindowsFormsApp1
         {
             this.aluNombre = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.aluNota = new System.Windows.Forms.TextBox();
+            this.aluNota = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.listaAlumnos = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -81,12 +81,12 @@ namespace WindowsFormsApp1
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 117);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(720, 341);
-            this.textBox1.TabIndex = 5;
+            this.listaAlumnos.Location = new System.Drawing.Point(12, 117);
+            this.listaAlumnos.Multiline = true;
+            this.listaAlumnos.Name = "listaAlumnos";
+            this.listaAlumnos.ReadOnly = true;
+            this.listaAlumnos.Size = new System.Drawing.Size(720, 341);
+            this.listaAlumnos.TabIndex = 5;
             // 
             // label3
             // 
@@ -103,7 +103,7 @@ namespace WindowsFormsApp1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(764, 503);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.listaAlumnos);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.aluNota);
@@ -120,10 +120,10 @@ namespace WindowsFormsApp1
 
         private System.Windows.Forms.TextBox aluNombre;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox aluNota;
+        private System.Windows.Forms.NumericUpDown aluNota;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox listaAlumnos;
         private System.Windows.Forms.Label label3;
     }
 }
